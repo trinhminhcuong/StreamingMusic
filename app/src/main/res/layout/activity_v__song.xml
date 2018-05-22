@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7c7c6"
+
+    tools:context="com.example.cuong.blackjack.Activity.V_Song">
+
+    <TextView
+        android:id="@+id/tvAdd06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to playlist"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <ImageView
+        android:id="@+id/imageSingerLogo05"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvSongName06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/image051"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/freystar"/>
+        <ImageView
+            android:id="@+id/image052"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/freystar"/>
+        <ImageView
+            android:id="@+id/image053"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/freystar"/>
+        <ImageView
+            android:id="@+id/image054"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/freystar"/>
+        <ImageView
+            android:id="@+id/image055"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/freystar"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLyrics06"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvStart06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="20dp"/>
+        <SeekBar
+            android:id="@+id/sb06"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvEnd06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="00:00"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/imageRewind06"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rewindicon"/>
+
+            <ImageView
+                android:id="@+id/imagePlay06"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playicon"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageView
+                android:id="@+id/imageNext06"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nexticon"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

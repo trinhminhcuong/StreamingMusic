@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#c7c7c6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/edUsernameD03"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edPasswordD03"
+            android:layout_width="200dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textAlignment="center"/>
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/edPasswordD031"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnSignUpD03"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:background="#2c7084"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
